@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:News/Screens/Signup/components/body.dart';
-import 'package:News/Screens/Signup/signup_screen.dart';
+import 'package:News/Screens/Welcome/welcome_screen.dart';
 import 'package:News/Screens/app/news_screen.dart';
 import 'package:News/profile.dart';
 
@@ -52,7 +51,7 @@ class _DrawerMenuState extends State<DrawerMenu> {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SignUpScreen()),
+                MaterialPageRoute(builder: (context) => WelcomeScreen()),
               );
             },
           ),
